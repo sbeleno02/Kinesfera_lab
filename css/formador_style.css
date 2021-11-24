@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+/* COMIENZO SIDEBAR */
+aside{
+    position: fixed;
+    left: 0;
+    width: 350px;
+    height: 100%;
+    list-style: none;
+    border-right: 1px solid rgb(34, 33, 33);
+}
+
+.top{
+font-size: 22px;
+color:rgb(34, 33, 33);
+text-align: center;
+line-height: 70px;
+user-select: none;
+font-family: 'Franklin Gothic Medium';
+margin-top: 40px;
+margin-bottom: 20px;
+}
+
+.container_li a{
+    display: block;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    font-size: 18px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    color: rgb(34, 33, 33);
+}
+
+.container_li a:hover{
+    padding-left: 60px;
+    border-left: 3px solid rgb(34, 33, 33);
+}
+
+.container_li a i{
+    margin-right: 20px;
+}
+/* FIN SIDEBAR */
+
+/* CAJAS CLASES */
+.container_principal{
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin-left: 410px;
+    width: 65%;
+    height: 100%;
+    position: static;
+}
+
+.clases{
+    height: 200px;
+    width: 700px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-bottom:30px;
+}
+
+.clases i{
+    display: inline;
+    float: left;
+    font-size: 100px;
+    padding: 50px 40px;
+    background-color: rgb(218, 214, 214);
+    color: rgb(34, 33, 33);
+    margin-right: 40px;
+}
+
+.nombre_clase{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(46, 46, 46);
+    margin-bottom: 30px;
+}
+
+.texto{
+    display: block;
+    height: 50%;
+    width: 99%;
+}
+
+.img_usuario{
+    width: 70px;
+    height: 70px;
+    margin:10px;
+    border-radius: 50%;
+
+}
+
+.nombre_usuario{
+    display: inline-block;
+    position: absolute;
+    margin-top: 35px;
+
+}
+
+.caja_usuario{
+    display: block;
+    padding: 15px;
+    margin: 25px;
+}
+
+.boton_publicar{
+    margin-left: 170px;
+    padding: 10px 20px;
+    background: #00AAF7;
+    color: white;
+    transition: all .5s;
+}
+
+.boton_publicar:hover{
+    background: #036796;
+    cursor: pointer;
+}
+
+.img_publicacion{
+    display: block;
+    margin:20px;
+}
+
+.img_barra{
+    float: right;
+    display: block;
+}
+
+.contenedor_div{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.buscador{
+    float: right;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 30px;
+    display: block;
+    width: 250px;
+    height: 40px;
+
+
+}
+
+.pie_pagina{
+    position:absolute;
+    height: 150px;
+    width: 66%;
+    background-color: rgb(201, 237, 243);
+    margin-left: 400px;
+    margin-top: 25px;
+}
+
+.pie_pagina p {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 75px;
+    color: rgb(2, 2, 48);
+}

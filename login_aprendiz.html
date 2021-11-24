@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kinesfera Lab</title>
+        <link rel="stylesheet" href="css/login_aprendiz_style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+	    <link rel="icon" type="image/png" href="img/logotipo.PNG">
+    </head>
+    <body>
+
+        <!-- sidebar -->
+        <div class="sidebar">
+            <header class="top">
+                <img class="logo" src="img/portafolio/logotipo.PNG" alt="Logo">
+                <h1 class="titulo">kinesfera lab</h1>
+            </header>
+            <ul class="container_li">
+                <li><a href="formador.html"><i class="fas fa-qrcode"></i>Clase</a></li>
+                <li><a href="#"><i class="fas fa-users"></i>Registrar aprendices</a></li>
+                <li><a href="#"><i class="fas fa-pen"></i>Publicar</a></li>
+                <li><a href="#"><i class="fas fa-user-circle"></i>Perfil</a></li>
+                <li><a href="#"><i class="fas fa-images"></i>Laboratorio Artistico</a></li>
+                <li><a href="#"><i class="fas fa-share-square"></i>Salir</a></li>
+            </ul>
+        </div>
+        <!-- fin sidebar -->
+
+        
+        <!-- REGISTRO -->
+        <section class="formulario">
+            <form id="register" class="input-group-register" action="registrar_aprendiz.php" method="post">
+                <h2 class="titulo_register">Registro de Aprendices</h2>
+                <input type="text" class="input-field" name="n_completo" placeholder="Nombre Completo" required>
+                <input type="number" class="input-field" name="edad" placeholder="Edad" required>
+                <input type="number" class="input-field" name="n_tel"  placeholder="Numero de telefono" required>
+                <input type="email" class="input-field" name="email" placeholder="Correo Electronico" required>
+                <input type="text" class="input-field" name="n_usuario" placeholder="Nombre de usuario" required>
+                <input type="password" class="input-field" name="contra" placeholder="contraseña" required>
+                <input type="password" class="input-field" name="c_contra" placeholder="Confimar Contraseña" required>
+                <input type="number" name="cargo" value="3" id="cargo">
+                <input type="submit" class="submit-btn" name="btn">
+            </form>
+        </section>
+       <!--  FIN REGISTRO -->
+    </body>
+</html>

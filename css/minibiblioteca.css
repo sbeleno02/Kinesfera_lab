@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 120%;
+    z-index: 0;
+}
+
+#contenedor_grande{
+ border: 20px solid white;
+ position: absolute;
+ display: none;
+}
+
+
+.encabezado{
+    background-color: white;
+    width: 100%;
+    height: 180px;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    z-index:500;
+    background: transparent;
+}
+
+.encabezado img{
+    margin-left: 8%;
+    display: inline;
+    width: 90px;
+    margin-top: 20px;
+    float: left; 
+    object-fit: cover;
+}
+
+.encabezado h1{
+    font-size: 50px;
+    color: white;
+    line-height: 70px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 20px;
+    display: inline-block;
+    
+    transition: all 0.3s ease;
+    font-family:'Franklin Gothic Medium';
+    border-left: 5px solid #FF9700;
+    padding: 5px;
+}
+
+.encabezado h1 span{
+    color:white;
+}
+
+.encabezado nav{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    text-align: right;
+    padding-right: 50px;
+
+    
+}
+
+.encabezado nav a{
+    color: white;
+    font-weight: 600;
+    display: inline-block;
+    padding: 16px 13px;
+    text-decoration: none;
+    transition: 0.3s;
+    height: 3em;
+   
+}
+
+.encabezado nav a:hover{
+  border-bottom:5px solid #FF9700;
+  border-radius: 15%;
+}
